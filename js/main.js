@@ -5,7 +5,7 @@ const badgeElement = document.querySelector('.badge-element');
 const modalList = document.querySelector('.modal-list');
 
 if (!user_id) {
-	window.location.href = '/login.html';
+	window.location.href = '/register.html';
 }
 
 const products = [
