@@ -1,7 +1,6 @@
 const elList = document.querySelector('.list');
 const user_id = localStorage.getItem('user_id');
 const users = JSON.parse(localStorage.getItem('users'));
-const findedUser = users.find((item) => item.id == user_id);
 const badgeElement = document.querySelector('.badge-element');
 const modalList = document.querySelector('.modal-list');
 
