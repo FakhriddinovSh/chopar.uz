@@ -7,7 +7,6 @@ const modalList = document.querySelector('.modal-list');
 
 if (!user_id) {
 	window.location.href = '/login.html';
-	return;
 }
 
 const products = [
