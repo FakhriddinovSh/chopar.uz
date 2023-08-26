@@ -5,6 +5,11 @@ const findedUser = users.find((item) => item.id == user_id);
 const badgeElement = document.querySelector('.badge-element');
 const modalList = document.querySelector('.modal-list');
 
+if (!user_id) {
+	window.location.href = '/login.html';
+	return;
+}
+
 const products = [
 	{
 		id: 1,
